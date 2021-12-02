@@ -1,13 +1,15 @@
 import _ from 'lodash';
 import homePage from './home.js';
+import menuPage from './menu.js';
 import './Styles/home.css';
+import './Styles/menu.css';
 
 window.onload = homePage();
 
 //Creates the header's content and the buttons to switch tabs
 const tabs = (function(){
  //Header's DOM
- const content = document.querySelector('.content')
+const content = document.querySelector('.content')
 const header = document.querySelector('.header');
 const brand = document.createElement('div');
 const home = document.createElement('button');
@@ -48,6 +50,8 @@ function loadMenu () {
     while (content.firstChild) {
         content.removeChild(content.lastChild);
     };
+    menuPage();
+    
 }
 
 
