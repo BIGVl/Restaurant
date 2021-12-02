@@ -8,3 +8,42 @@
     border: none;
 }
 
+body {
+    font-family: 'Pacifico',cursive;
+}
+.meniuP {
+    background: #133321;
+    height: 100vh;
+    color: #aadbaa;
+}
+
+
+.title {
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    transform: translate(-50%);
+    font-size: 100px;
+    top: 12%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+
+    
+    
+}
+
+.meniu {
+    position: absolute;
+    background: black;
+    top: 29%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100vw;
+    min-height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 15%;
+    font-size: 50px ;
+}
+
