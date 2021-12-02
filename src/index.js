@@ -66,6 +66,7 @@ function loadContact () {
         content.removeChild(content.lastChild);
     };
     content.classList.remove('meniuP');
+    contactPage();
 }
 
 })();
