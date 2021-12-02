@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*,*::before,*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background: url(Img/background.jpg);
+    font-family: 'Pacifico',cursive;
+}
+
+.header {
+    height: 5vh;
+    width: 100vw;
+    background: #266843;
+    box-shadow: 0px 3px 10px 5px black ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.brand {
+    background:#266843;
+    width: fit-content;
+    font-size: 3.5em;
+    padding-left: 7px;
+    padding-right: 10px;
+    padding-bottom: 10vh;
+    color: white;
+    box-shadow: 0px 5px 8px 5px black;
+    justify-self: flex-start
+}
+
+.headButtons {
+    width: 17%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 25%;
+}
+.home, .contact, .menu {
+    height: 100%;
+    width: 30%;
+    background: transparent;
+    font-family: 'Dancing Script', cursive; 
+    font-size: x-large;
+    color: white;
+    border: 3px solid #79CD9E;
+    cursor: pointer;
+
+
+}
+
+.home:active, .contact:active, .menu:active {
+
+    background: #79CD9E;
+}
+
+.content {
+    width: 100vw;
+    height: 70vh;
+    
+}
+
+.description {
+    width: 52%;
+    height: 80%;
+    max-height: fit-content;
+    background: rgba(2, 29, 6, 0.8);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: 4.5%;
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Dancing Script', cursive;
+    padding-left: 12px;
+    padding-right: 10px;
+
+  
+
+}
+
