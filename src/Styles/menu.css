@@ -13,7 +13,8 @@ body {
 }
 .meniuP {
     background: #133321;
-    height: 100vh;
+    height: inherit1;
+    z-index: 0;
     color: #aadbaa;
 }
 
@@ -21,29 +22,49 @@ body {
 .title {
     position: absolute;
     top: 30%;
-    left: 55%;
+    left: 50%;
     transform: translate(-50%);
     font-size: 100px;
     top: 12%;
-    display:grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 
     
     
 }
 
+.line {
+
+    width: 80vw;
+    height: 2px;
+    background-color: #aadbaa ;
+}
+
 .meniu {
     position: absolute;
-    background: black;
-    top: 29%;
+    top: 38%;
     left: 50%;
     transform: translate(-50%);
     width: 100vw;
     min-height: 60vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-left: 15%;
     font-size: 50px ;
 }
 
+.traditionale, .specials, .gratar, .drinks {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #133321;
+}
+
+.line2 {
+
+    width: 50%;
+    height: 2px;
+    background-color: #aadbaa ;
+}

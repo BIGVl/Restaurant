@@ -13,9 +13,11 @@ body {
     font-family: 'Pacifico',cursive;
 }
 
+
 .header {
     top: 0;
     position: fixed;
+    z-index: 5;
     height: 5vh;
     width: 100vw;
     background: #266843;
