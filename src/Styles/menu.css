@@ -13,7 +13,7 @@ body {
 }
 .meniuP {
     background: #133321;
-    height: inherit1;
+    height: 100vh;
     z-index: 0;
     color: #aadbaa;
 }
@@ -67,4 +67,9 @@ body {
     width: 50%;
     height: 2px;
     background-color: #aadbaa ;
+}
+
+.trad, .special, .gratare, .drink {
+
+    font-size: 35px;
 }

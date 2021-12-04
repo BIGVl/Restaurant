@@ -59,4 +59,12 @@ for (let i=0;i<= gratarArray.length;i++) {
     gratar.appendChild(gratare).classList.add('gratare')
 }
 
+const drinksArray = ['bere', 'vin alb', 'vin rosu', 'vin rose', 'limonada', 'whiskey']
+
+for (let i=0;i<= drinksArray.length;i++) {
+
+    let drink = document.createElement('div');
+    drink.textContent = drinksArray[i];
+    drinks.appendChild(drink).classList.add('drink');
+}
 }
