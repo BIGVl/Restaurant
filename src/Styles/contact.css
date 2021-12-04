@@ -11,3 +11,46 @@
 body {
     font-family: 'Pacifico',cursive;
 }
+
+.overlay {
+    position: absolute;
+    width: 100vw;
+    height: 80vh;
+    top: 13%;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 40px;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr; 
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.info {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.telefoane {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.email {
+    grid-column-start: 3;
+    grid-column-end:4;
+}
+
+.number {
+    font-size: 30px;
+}
+
+.leaveM {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+

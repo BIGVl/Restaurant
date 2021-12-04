@@ -5,6 +5,8 @@ const title = document.createElement('div');
 title.textContent = 'Meniu';
 const meniuLine = document.createElement('div');
 const meniu = document.createElement('div');
+const rezerva = document.createElement('div');
+rezerva.textContent = 'Suna pentru a rezerva la : 0722334455'
 
 const traditionale = document.createElement('div');
 const tradLine = document.createElement('div');
@@ -31,6 +33,7 @@ drinks.appendChild(drinksLine).classList.add('line2');
 content.appendChild(title).classList.add('title');
 title.appendChild(meniuLine).classList.add('line')
 content.appendChild(meniu).classList.add('meniu');
+content.appendChild(rezerva).classList.add('rezerva')
 
 //Adds items under 'Traditionale'
 const tradArray = ['sarmale', 'ciorba de burta', 'tochitura cu mamaliga']
